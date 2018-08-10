@@ -3,6 +3,7 @@
 For linux, install autoconf first for jemalloc
 
 ```
+yum -y install readline-devel
 git clone https://github.com/cloudwu/skynet.git
 cd skynet
 make 'PLATFORM'  # PLATFORM can be linux, macosx, freebsd now
